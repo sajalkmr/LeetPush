@@ -5,7 +5,7 @@ import { SiBuymeacoffee } from 'react-icons/si'
 export const LINKS = [
   {
     name: 'github',
-    link: '',
+    link: 'https://github.com/LeetPushExtension/LeetPush',
     icon: <IoLogoGithub size="25" />,
   },
   {
@@ -20,7 +20,7 @@ export const LINKS = [
   },
   {
     name: 'buymeacoffee',
-    link: '',
+    link: 'https://www.buymeacoffee.com/husamahmud',
     icon: <SiBuymeacoffee size="25" />,
   },
 ]
