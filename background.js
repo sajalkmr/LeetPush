@@ -93,7 +93,7 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo) => {
               memoryText = memory.innerText
             }
             /** Generate a commit message *****************************/
-            commitMsg = `[${probNum}] [Time Beats: ${runtimeText}] [Memory Beats: ${memoryText}] - LeetPush`
+            commitMsg = ``
             await sessionStorage.setItem('commitMsg', commitMsg)
           }
         }
