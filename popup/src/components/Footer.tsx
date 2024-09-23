@@ -6,12 +6,12 @@ export default function Footer() {
       <p className="flex items-center justify-center text-center text-xs text-lp-greyer">
         &copy; {new Date().getFullYear()}
         <span className="ml-1 flex items-center font-semibold text-lp-grey">
-          Hüsam
-          <a href="https://twitter.com/husamahmud" target="_blank" className="ml-1">
+          
+          <a href="https://twitter.com/" target="_blank" className="ml-1">
             <FaXTwitter size="16" />
           </a>
           <a
-            href="https://www.linkedin.com/in/husamahmud/"
+            href="https://www.linkedin.com/in/"
             target="_blank"
             className="ml-1">
             <FaLinkedinIn size="16" />

@@ -424,8 +424,8 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo) => {
 
         async function changeReadmeAndDescription(token, repo, branch) {
           const [userName, repoName] = repo.split('/').slice(3, 5)
-          const description = 'This repository is managed by LeetPush extension: https://github.com/husamahmud/LeetPush'
-          const readmeContent = '# LeetCode\n\nThis repository contains my solutions to LeetCode problems.\n\nCreated with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)\n\n ## Made by \n - Tut: [GitHub](https://github.com/TutTrue) - [LinkedIn](https://www.linkedin.com/in/mahmoud-hamdy-8b6825245/)\n - Hüsam: [GitHub](https://github.com/husamahmud) - [LinkedIn](https://www.linkedin.com/in/husamahmud/)\n\n Happy coding! 🚀'
+          const description = 'This repository is managed by an extension'
+          const readmeContent = '# LeetCode\n\nThis repository contains my solutions to LeetCode problems.\n\n\n ##\n Happy coding! 🚀'
           const readmeApiUrl = `${BASE_URL}/${userName}/${repoName}/contents/README.md`
           const encodedReadmeContent = btoa(unescape(encodeURIComponent(readmeContent)))
 
